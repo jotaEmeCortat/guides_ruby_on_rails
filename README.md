@@ -1,24 +1,46 @@
-# README
+# Ruby on Rails Getting Started Guide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a Ruby on Rails application created by following the
+[Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) guide. The guide
+provides a step-by-step tutorial for building a simple e-commerce application called "store".
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- Create, read, update, and delete (CRUD) products
+- Basic authentication for product management
+- Inventory tracking
+- Email notifications for products back in stock
+- Simple user interface for managing products
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby 3.2 or newer
+- Rails 8.0 or newer
+- SQLite3
 
-* Database creation
+## Setup
 
-* Database initialization
+1. Install dependencies:
 
-* How to run the test suite
+   ```sh
+   bundle install
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+2. Set up the database:
 
-* Deployment instructions
+   ```sh
+   rails db:migrate
+   ```
 
-* ...
+3. Start the Rails server:
+
+   ```sh
+   rails server
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the application running.
+
+## User default credentials
+
+- email: "you@example.org"
+- password: "s3cr3t"
